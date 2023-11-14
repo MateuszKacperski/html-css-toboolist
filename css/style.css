@@ -10,17 +10,69 @@ body{
     font-family: Arial, sans-serif;
 }
 
+li{
+    padding:7px;
+}
 
 /*utilities*/
 
 .conteiner{
-    max-width: 920px;
+    max-width: 800px;
     margin: 0 auto;
     background-color: white;
 }
 
 
+.freccetta{
+    font-size: 9px;
+    vertical-align: middle;
+    line-height: 100%;
+}
 
+.spunta{
+
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+}
+
+.ballot{
+
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+}
+
+.parole-evidenziate{
+    border-radius: 20%;
+    color:white;
+    font-size: 13px;
+    padding:2px;    
+}
+
+.blue{
+    background-color: blue;
+}
+
+.darkorchid{
+    background-color: darkorchid;
+}
+
+.darkgreen{
+    background-color: darkgreen;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.greenyellow{
+    background-color: 	greenyellow;
+}
+
+.hotpink{
+    background-color: hotpink;
+}
 
 /*header*/
 
@@ -71,6 +123,12 @@ body{
 /* main */
 
 .main{
-    margin:2px; 
+    margin-top:2px;
+    margin-bottom: 40px;
 }
 
+.lista{
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 30px;
+}
