@@ -10,6 +10,18 @@ body{
     font-family: Arial, sans-serif;
 }
 
+
+/*utilities*/
+
+.conteiner{
+    max-width: 920px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+
+
 /*header*/
 
 .header{
@@ -24,5 +36,41 @@ body{
     line-height: 100px;
     vertical-align: middle;
     margin-left: 20px
+}
+
+
+/*main*/
+
+
+.main-header{
+    margin-top: 40px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border: 5px solid white;
+}
+
+#button-task{
+    background-color: 	deepskyblue;
+    margin-top:15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 12%;
+    border: 1px solid deepskyblue;
+    color:white;
+}
+
+#button-section{
+    background-color: white;
+    padding: 5px;
+    border: 1px solid darkgrey;
+    border-radius: 12%;
+    color: darkgrey;
+}
+
+/* main */
+
+.main{
+    margin:2px; 
 }
 
